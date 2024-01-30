@@ -2,31 +2,31 @@
 
 ![gif cut from game](/pics/readme_gif.gif)
 
-## Table of Content
+![Game GIF](/pics/readme_gif.gif)
+
+## Table of Contents
 - [ELECTRIFIER MAZE](#electrifier-maze)
-	- [Table of Content](#table-of-content)
+	- [Table of Contents](#table-of-contents)
 	- [Introduction](#introduction)
 	- [Prerequisites](#prerequisites)
 	- [Installation](#installation)
-	- [Game controls](#game-controls)
+	- [Game Controls](#game-controls)
 	- [Tools Used](#tools-used)
 	- [Contributors](#contributors)
 
-
 ## Introduction
-Electrifier Maze is a simple game built using the Raycasting technique. It was built to serve as my portfolio project. I chose this project to because of my curiosity to explore game development. The goal of the game is to find your way from one end of the map (where the player was initially spawned with black walls) to the other end of the map (with white walls).
+Electrifier Maze is a straightforward game constructed using the Raycasting technique, serving as my portfolio project. I opted for this project due to my curiosity about exploring game development. The objective of the game is to navigate from one end of the map (where the player initially spawns amidst black walls) to the opposite end of the map (featuring white walls).
 
 ## Prerequisites
 - Debian/Ubuntu or Fedora OS
 - A Bash terminal
 - A user with superuser privilege
-- git - Click this link and follow the instructions to [install git](https://github.com/git-guides/install-git#install-git-on-linux) on your machine.
+- git - Follow the instructions [here](https://github.com/git-guides/install-git#install-git-on-linux) to install git on your machine.
 
-This game was built to be compiled and ran on a linux machine only.
-
+This game is designed to be compiled and run exclusively on a Linux machine.
 
 ## Installation
-Using a Bash terminal, run the commands after the `$` sign below.
+In a Bash terminal, execute the commands following the `$` sign below.
 - Clone the repository
 
 	```bash
@@ -35,7 +35,7 @@ Using a Bash terminal, run the commands after the `$` sign below.
 	...
 	```
 
-- Install SDL2 library on your respective machine
+- Install the SDL2 library on your respective machine
 
 	```bash
 	user@user-pc:~/$ ./install_sdl2.sh
@@ -52,26 +52,24 @@ Using a Bash terminal, run the commands after the `$` sign below.
 	user@user-pc:~/alx-maze_project/$ ./build.sh
 	```
 
+## Game Controls
+Use these keys to navigate your way around the game.
 
-## Game controls
-Used this keys to navigate your way around the game.
-| Keys			| Function	|
-|  :-------		| :---------	|
-| `w` or `up arrow`	| Move forward  |
-| `s` or `down arrow`	| Move backward |
-| `a` or `left arrown`	| Turn left	|
-| `d` or `right arrow`	| Turn right	|
-
+| Keys				| Function		|
+|  :-------			| :---------		|
+| `w` or `up arrow`		| Move forward  	|
+| `s` or `down arrow`		| Move backward 	|
+| `a` or `left arrow`		| Turn left		|
+| `d` or `right arrow`		| Turn right		|
 
 ## Tools Used
-As part of the project requirement, the game was built using the SDL2 library and Raycasting Technique.
-- ChatGPT: ChatGPT is a language model developed by OpenAI. It generates human-like text responses to text inputs.
-	ChatGPT was used for researching to better understand the Raycasting technique and SDL2 library.
-	It also suggested better ways to implement some designs, like the game map and so on.
+As part of the project requirements, the game was built using the SDL2 library and Raycasting Technique. Noteworthy tools include:
 
-- Raycasting: Raycasting is a rendering technique that creates 3D perspective from a 2D map. The 2D map used in this game is stored in a [file](/map/map1.txt), which is then extracted by a function that reads the file line by line and stores each character in a 2D array representing the length and breadth of the map. For more information about Raycasting, click [here](https://permadi.com/1996/05/ray-casting-tutorial-table-of-contents/).
+- **ChatGPT:** Developed by OpenAI, ChatGPT served as a language model for researching and gaining a better understanding of the Raycasting technique and SDL2 library. It also provided insights on implementing certain designs, such as the game map.
 
-- SDL2: SDL (The Simple DirectMedia Layer) is a cross-platform development library, designed to allow low level access to audio, video, mouse, keyboard and graphics hardware via OpenGL and Direct3D. SDL2 is the second version of the SDL library. For more information about SDL2, click [here](https://lazyfoo.net/tutorials/SDL/index.php).
+- **Raycasting:** A rendering technique that creates 3D perspective from a 2D map. The 2D map used in this game is stored in a [file](/map/map1.txt), with a function reading the file line by line and storing each character in a 2D array representing the length and breadth of the map. Further information about Raycasting can be found [here](https://permadi.com/1996/05/ray-casting-tutorial-table-of-contents/).
+
+- **SDL2:** SDL (The Simple DirectMedia Layer) is a cross-platform development library designed for low-level access to audio, video, mouse, keyboard, and graphics hardware via OpenGL and Direct3D. SDL2, the second version of the SDL library, was used in this project. Learn more about SDL2 [here](https://lazyfoo.net/tutorials/SDL/index.php).
 
 ## Contributors
 - [Haruna Bah Jibril](https://www.linkedin.com/in/harzjunior/)
