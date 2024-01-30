@@ -1,7 +1,5 @@
 # ELECTRIFIER MAZE
 
-![gif cut from game](/pics/readme_gif.gif)
-
 ![Game GIF](/pics/readme_gif.gif)
 
 ## Table of Contents
